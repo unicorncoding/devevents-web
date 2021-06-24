@@ -10,7 +10,7 @@
                 {{ topicName() }}
               </em>
               <span v-else>Developer</span>
-              conferences 2011/2022 <em>{{ locationName() }}</em>
+              conferences 2021/2022 <em>{{ locationName() }}</em>
             </h1>
           </div>
           <div class="column is-one-third-desktop is-full-mobile">
