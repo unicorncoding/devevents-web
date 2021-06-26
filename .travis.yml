@@ -14,9 +14,6 @@ script:
 - npm install
 - npm run build
 - firebase deploy --only hosting --token $FIREBASE_TOKEN
-- cd worker
-- wrangler build
-- wrangler publish
 env:
   global:
   - secure: ekCVnL37s0KdusrqpGeYcQwQc1kW2Fg87+NXnrKOLczg/U5G3nB7SrOdVFDemPMxkKkyaoeu/zY4MTIlmF4+i/puuIjQtEBpJEIcGYxfFSlWq9NXv9gkLBOfrlQlR/WKTzb+XnnOPqBYYLNDibGSdzoPGwp65bWj/kvNyuwX1JyKXVki6yCvfw87ky48LJ6MM+USo3UlPO93KH0EILPpB+hOhgvbwvNqLfZJKZxRgOkcpYy7IE37hLoCNx0dhD9ZxeRQ1N9Q9BIXPC+BvtYyvo5j41lB1i5nuS6YdD9BteNuQslDe9glXYh5Yz03AvUx+KhOJk4tJb8D3bonw565B7i7n11LNGFct60WYlQ/tPle4ymT8b1yfok9Tjuh19XyVVbdqFqQzrfY7knn/6JhrME8YnSUtJtgztMBiNVcCeqWlanXBoquDQlcpvz/n37C3OR+rLVIr6TB8K8qVPJzAoWHcRFJh1phnF55R2o7al6hT86U0a7uNOWYxsOPkft9h/RrwlYpZNo+o2WF9YHCGkcY1Cce63jVbJ7KNcFWFtXKIx8lNh3hDFOO9sMfWINPQXbm1YolMcORz8NVenwYlbFZC/FDcHKZPI8+OrPHDcCrfCq7ndHTM2Or3j3p6cQmIjZqmFvomJKeHHxN12+RoHk6BNvQbfhW9HPjNWbDqu4=

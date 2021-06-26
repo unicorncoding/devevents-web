@@ -1,6 +1,0 @@
-name = "worker"
-type = "webpack"
-account_id = ""
-workers_dev = false
-route = "dev.events"
-zone_id = "56b253972b40e9d626db58d93ec03332"
