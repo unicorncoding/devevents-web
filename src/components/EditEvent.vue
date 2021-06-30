@@ -42,18 +42,18 @@ export default {
         ({
           startDate,
           continentCode,
-          topicCode,
           endDate,
           id,
           topics,
           top,
           countryCode,
-          name
+          name,
+          twitter
         }) => ({
           startDate,
           endDate,
           id,
-          topicCode: topicCode || undefined,
+          twitter,
           continentCode,
           topics,
           top,
