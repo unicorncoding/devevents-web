@@ -43,6 +43,7 @@ export default {
           startDate,
           continentCode,
           endDate,
+          category,
           id,
           topics,
           top,
@@ -52,6 +53,7 @@ export default {
         }) => ({
           startDate,
           endDate,
+          category,
           id,
           twitter,
           continentCode,
