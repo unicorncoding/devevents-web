@@ -8,6 +8,7 @@
       >
         <router-link
           :to="{
+            name: 'confs',
             params: { continent: code, country: undefined }
           }"
           >{{ name }}</router-link
