@@ -2,6 +2,7 @@
 node_modules
 dist
 firebase.auth.json
+worker/worker/script.js
 
 # local env files
 .env.local
