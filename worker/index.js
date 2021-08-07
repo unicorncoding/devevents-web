@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
   const { headers, url } = request
 
-  const userAgent = headers.get('user-agent')
+  const userAgent = headers.get('user-agent') || ""
   if (!userAgent.includes('Twitterbot')) {
     return await fetch(request)
   }
